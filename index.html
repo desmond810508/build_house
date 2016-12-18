@@ -1,26 +1,72 @@
-<!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>House</title>
-	<script src="js/jquery-3.1.1.min.js"></script>
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<header class="page_header">
-	<h1>House of Jack built.</h1>
-	<p>Bla bla bla text.</p>
+<header>
+	<h1>Дом вашей мечты</h1>
+	<p>See how to use various CSS selectors in practice.</p>
 	<nav id="main-menu" class="menu">
-		<a href="#post">Navigation</a>
+		<a href="#post">Scroll</a>
 	</nav>
 </header>
-<section class="content" role="main">
-	<article>
-		<h2>Here is site content.</h2>
+<section id="post" role="main">
+	<article class="content">
+		<h2> Pure CSS, No JS!</h2>
+		<h3> Subheading</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, tempora voluptatum porro. Harum odio,
+			sapiente dicta, eum quidem porro atque quisquam impedit officia ullam minus, laudantium vel eaque doloribus
+			rem.</p>
+		<ul>
+			<li>This is a list item</li>
+			<li>This is a list item</li>
+			<li>This is a list item</li>
+		</ul>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, tempora voluptatum porro. Harum odio,
+			sapiente dicta, eum quidem porro atque quisquam impedit officia ullam minus, laudantium vel eaque doloribus
+			rem.</p>
+
+		<div class="image-wrap">
+			<figure class="image-wrap">
+				<img src="https://placeholdit.imgix.net/~text?txtsize=69&txt=740%C3%97350&w=740&h=350">
+			</figure>
+			<div class="image-caption">
+				This is an image caption
+			</div>
+		</div>
+		<div class="image-wrap">
+			<div class="image-caption">
+				This is an image caption with no image
+			</div>
+		</div
+		<img src="" alt="placeholder"/>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, tempora voluptatum porro. Harum odio,
+			sapiente dicta, eum quidem porro atque quisquam impedit officia ullam minus, laudantium vel eaque doloribus
+			rem.</p>
+		<blockquote>
+			<p>This is a quote</p>
+			<cite> Someone </cite>
+		</blockquote>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, tempora voluptatum porro. Harum odio,
+			sapiente dicta, eum quidem porro atque quisquam impedit officia ullam minus, laudantium vel eaque doloribus
+			rem.</p>
 	</article>
+	<aside class="content">
+		<h4>heading</h4>
+		<ul class="menu">
+			<li>Link one</li>
+			<li>Another one</li>
+			<li>Last child</li>
+		</ul>
+		<aside>
 </section>
-<footer>
-	&copy; 2016
+<section id="cta">
+	<p> Find more tutorials at Web Designer Wall
+	</p><a href="http://www.webdesignerwall.com/tutorials/the-power-of-css-selectors-and-how-to-use-them"
+	       alt="font awesome" target="_blank">View Tutorial</a>
+</section>
+<footer class="content tiny">
+	<p>Footer Text</p>
 </footer>
 </body>
 </html>
